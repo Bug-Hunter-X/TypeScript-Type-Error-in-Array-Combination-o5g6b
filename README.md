@@ -1,0 +1,1 @@
+This repository demonstrates a common TypeScript type error encountered when combining arrays of different types. The `combineArrays` function attempts to concatenate two number arrays; however, `arr2` contains a string element, causing a type error.  The solution illustrates how to correctly handle type mismatches during array concatenation using type guards or type assertions.
